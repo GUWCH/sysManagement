@@ -1,0 +1,7 @@
+applications:
+- name: APDR-UI
+  buildpack: staticfile_buildpack
+  memory: 4G
+  instances: 1
+  routes:
+    - route: apdr-ui.apps.pp01i.sh8.cf.ford.com
